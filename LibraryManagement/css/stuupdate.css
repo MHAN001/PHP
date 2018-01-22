@@ -1,0 +1,13 @@
+/* CSS Document */
+
+legend{
+      font-family: "隶书";
+	  font-size: 20px;
+	  color: #F60;
+     }table {
+	background-image: url(../images/login_bg.gif);
+	background-repeat: no-repeat;
+}
+td {
+	height: 34px;
+}

@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>学生选课系统</title>
+<style type="text/css">
+.topfont {
+	font-family: "隶书";
+	font-size: 24px;
+	color: #F30;
+	font-style: oblique;
+	text-align: center;
+}
+
+legend {
+	font-family: "隶书";
+	color: #F30;
+	font-size: 20px;
+}
+p {
+	text-align: center;
+	color: #666;
+	font-size: 24px;
+	font-family: "幼圆";
+}
+a {
+	text-decoration: none;
+	color: #666;
+	font-family: "幼圆";
+}
+#left fieldset table tr td a {
+	color: #000;
+	text-decoration: none;
+}
+#left fieldset table tr td a:hover {
+	color: #FF6;
+	font-size: 18px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #CCC;
+	font-family: "幼圆";
+	display: block;
+}
+
+ul {
+	list-style-type: none;
+}
+table {
+	text-align: center;
+	font-family: "新宋体";
+}
+#left {
+	height: 200px;
+	width: 300px;
+	float: left;
+}
+#right span {
+	font-size: 24px;
+	font-family: "幼圆";
+	font-weight: bold;
+}
+body {
+	background-color: #666;
+}
+#right {
+	height: 200px;
+	width: 400px;
+	float: left;
+	margin-left: 200px;
+}
+#apDiv1 {
+	position: absolute;
+	left: 8px;
+	top: 297px;
+	width: 904px;
+	height: 194px;
+	z-index: 1;
+}
+</style>
+
+</head>
+
+<body style="background-image:url(images/88.jpg)">
+ 
+ <span class="topfont">登录成功！欢迎进入学生选课系统</span>
+
+ <br/>
+ <br/>
+ 
+<form action="selectCourse.php" method="post">
+   
+    <div id="left">
+     <fieldset>
+     <legend>课程列表</legend>
+       <table width="294" height="130" border="0">
+            <tr>
+              <th width="74">课程号</th>
+              <th width="141">课程名</th>
+            </tr>
+            <tr>
+              <td>31</td>
+              <td><a href="#">数据库</a></td>
+            </tr>
+            <tr>
+              <td>32</td>
+              <td><a href="#">数据结构</a></td>
+            </tr>
+            <tr>
+              <td>33</td>
+              <td><a href="#">web</a></td>
+            </tr>
+            <tr>
+              <td>34</td>
+              <td><a href="#">java</a></td>
+            </tr>
+            <tr>
+              <td>35</td>
+              <td><a href="#">计算机网络</a></td>
+            </tr>
+       </table>
+     </fieldset>
+    </div>
+    
+     <div id="right">
+     <fieldset>
+     <legend>选课</legend>
+      <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;输入学号
+        ：
+       <input type="text" name="sno"><br/><br/>
+        输入课程号
+        ：
+        <input type="text" name="cno"><br/><br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="确认选择">
+     </fieldset>
+     </div>
+     
+	    </div>
+    
+     
+     
+ </form>
+ 
+ 
+ <form action="courseview.php" method="post">
+   
+    <div id="left">
+     <fieldset>
+     <legend>查看已选课程列表</legend>
+       <table width="294" height="50" border="0">
+	   <br/><br/>
+         &nbsp;&nbsp;&nbsp;&nbsp;输入学号
+        ：
+       <input type="text" name="sno"><br/><br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 <input type="submit" value="查看已选课程">
+       </table>
+     </fieldset>
+    </div>
+    
+    
+    
+     
+     
+ </form>
+
+<div id="apDiv1">
+<fieldset>
+ <legend>成绩查询</legend>
+ <form action="grade.php" method="post">
+       请输入学号：<input type="text" name="sno"></input>
+       <input type="submit" value="查询成绩">
+ </form>
+</fieldset>
+</div>
+</body>
+</html>

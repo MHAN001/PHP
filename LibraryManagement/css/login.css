@@ -1,0 +1,41 @@
+#form1 table {
+	background-image: url(../images/login_bg.gif);
+	background-repeat: repeat-x;
+}
+#form1 table tr td #tj {
+	background-image: url(../images/submit.gif);
+	height: 34px;
+	width: 80px;
+	text-indent: -9999px;
+	margin: 0px;
+	padding: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+#form1 table tr td li {
+	list-style-type: none;
+	float: left;
+	padding-left: 50px;
+	margin: 0px;
+}
+#form1 table tr td #ct {
+	background-image: url(../images/reset.gif);
+	height: 34px;
+	width: 80px;
+	text-indent: -9999px;
+	margin: 0px;
+	padding: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+
+#form1 table tr td span {
+	color: #f30;
+	font-family: "隶书";
+	font-size: 24px;
+}

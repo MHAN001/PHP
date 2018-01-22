@@ -1,0 +1,12 @@
+﻿legend{
+      font-family: "隶书";
+	  font-size: 20px;
+	  color: #F60;
+     }
+table {
+	background-image: url(../images/login_bg.gif);
+	background-repeat: no-repeat;
+}
+table tr td{
+     text-align: center;   
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.STYLE2 {color: #43860c; font-size: 12px; }
+
+a:link {font-size:12px; text-decoration:none; color:#43860c;}
+a:visited {font-size:12px; text-decoration:none; color:#43860c;}
+a:hover{font-size:12px; text-decoration:none; color:#FF0000;}
+-->
+</style>
+<script type="text/JavaScript">
+<!--
+
+
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+</head>
+
+<body>
+<table width="177" height="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed">
+      <tr>
+        <td height="26" background="images/main_21.gif">&nbsp;</td>
+      </tr>
+      
+      <tr>
+        <td  style="line-height:4px; background:url(images/main_38.gif)">&nbsp;</td>
+      </tr>
+      <tr>
+        <td><SCRIPT LANGUAGE="JavaScript" SRC="js/treemenu.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" SRC="js/Common.js"></SCRIPT>
+<script language="JavaScript">
+function addqkOpen(BcgID)
+{
+     window.open('InfoCenter/addlanmu.asp?BcgID='+BcgID,'','width:400px; height:25px; status:0');
+}
+</script>
+
+<body>
+<SCRIPT LANGUAGE='JavaScript'>
+foldersTree = gFldr('<DIV CLASS=fldrroot><b>系统功能列表</b></DIV>','');
+
+Class1 = insFldr(foldersTree, gFldr('<DIV CLASS=fldrroot>管理员帐号管理</DIV>', ''));
+insDoc(Class1, gLnk(1, '<a href=yhzhgl.php target=main alt=管理员帐号管理>管理员帐号管理</a>', '', 'images/editinfo.gif'));
+Class5 = insFldr(foldersTree, gFldr('<DIV CLASS=fldrroot>考生管理</DIV>', ''));
+insDoc(Class5, gLnk(1, '<a href=kaosheng_add.php target=main>考生添加</a>', '', 'images/editinfo.gif'));
+insDoc(Class5, gLnk(1, '<a href=kaosheng_list.php target=main>考生管理</a>', '', 'images/editinfo.gif'));
+
+Class2 = insFldr(foldersTree, gFldr('<DIV CLASS=fldrroot>试题库管理</DIV>', ''));
+insDoc(Class2, gLnk(1, '<a href=kemuxinxi_add.php target=main>添加科目</a>', '', 'images/editinfo.gif'));
+insDoc(Class2, gLnk(1, '<a href=kemuxinxi_list.php target=main>查询科目</a>', '', 'images/editinfo.gif'));
+
+insDoc(Class2, gLnk(1, '<a href=danxuanti_add.php target=main>添加单选题</a>', '', 'images/editinfo.gif'));
+insDoc(Class2, gLnk(1, '<a href=danxuanti_list.php target=main>查询单选题</a>', '', 'images/editinfo.gif'));
+insDoc(Class2, gLnk(1, '<a href=duoxuanti_add.php target=main>添加多选题</a>', '', 'images/editinfo.gif'));
+insDoc(Class2, gLnk(1, '<a href=duoxuanti_list.php target=main>查询多选题</a>', '', 'images/editinfo.gif'));
+
+Class5 = insFldr(foldersTree, gFldr('<DIV CLASS=fldrroot>试卷生成</DIV>', ''));
+insDoc(Class5, gLnk(1, '<a href=shijuanshengcheng_add.php target=main>试卷生成</a>', '', 'images/editinfo.gif'));
+insDoc(Class5, gLnk(1, '<a href=shijuanshengcheng_list.php target=main>试卷查询</a>', '', 'images/editinfo.gif'));
+Class5 = insFldr(foldersTree, gFldr('<DIV CLASS=fldrroot>成绩查阅</DIV>', ''));
+insDoc(Class5, gLnk(1, '<a href=chengji.php target=main>成绩查阅</a>', '', 'images/editinfo.gif'));
+
+insDoc(foldersTree, gLnk(1, '<a href=mod.php target=main>修改密码</a>', '', 'images/pwd.GIF'));
+insDoc(foldersTree, gLnk(1, '退出', 'logout.php', 'images/exit.GIF'));
+initializeDocument(0);</SCRIPT>
+</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

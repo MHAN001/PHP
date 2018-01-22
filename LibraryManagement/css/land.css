@@ -1,0 +1,33 @@
+#form1 table {
+	background-image: url(../images/login_bg.gif);
+	background-repeat: repeat-x;
+}
+.land1 {
+	background-image: url(../images/login.gif);
+	text-indent: -9999px;
+	height: 34px;
+	width: 80px;
+	margin: 0px;
+	padding: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.land2 {
+	background-image: url(../images/login_mouseover.gif);
+	text-indent: -9999px;
+	height: 34px;
+	width: 80px;
+	margin: 0px;
+	padding: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+#form1 table tr td strong {
+	color: #f30;
+	font-size: 24px;
+	font-family: "隶书";
+}

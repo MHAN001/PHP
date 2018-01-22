@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>课程管理</title>
+<style type="text/css">
+legend{
+      font-family: "隶书";
+	  font-size: 20px;
+	  color: #F60;
+     }
+table {
+	background-image: url(images/login_bg.gif);
+	background-repeat: no-repeat;
+}
+td {
+	height: 35px;
+}
+.topfont {
+	font-family: "隶书";
+	color: #F60;
+	font-size: 19px;
+}
+
+</style>
+</head>
+
+<body style="background-image:url(images/88.jpg)">
+ 
+ <fieldset>
+ <legend>录入学生成绩</legend>
+   <form action="addsc.php" method="post">
+        
+     <table width="607" border="0" align="center"  >
+           <tr>
+            <td height="34" class="topfont">添加信息</td>
+            <td></td>
+            <td>&nbsp;</td>
+       </tr>
+          <tr>
+            <td width="155" height="41">&nbsp;</td>
+            <td width="232">&nbsp;&nbsp;&nbsp;&nbsp;学号：<input type="text" name="ssno"></td>
+            <td width="206">&nbsp;</td>
+          </tr>
+          <tr>
+            <td height="41">&nbsp;</td>
+            <td>课程号：<input type="text" name="ccno"></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td height="41">&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;成绩：<input type="text" name="ggrade"></td>
+            <td>&nbsp;</td>
+          </tr>
+          
+          <tr>
+            <td height="43">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td><input type="submit" value="录入"></td>
+          </tr>
+        </table>
+        <br/>
+        		 
+   
+   </form>
+     </fieldset>
+	 
+	 
+	 
+	 
+	 <fieldset>
+ <legend>查看学生成绩</legend>
+ <form action="grade.php" method="post">
+ 
+  <table width="607" border="0" align="center"  >
+           <tr>
+            <td height="34" class="topfont">查询学生成绩</td>
+            <td></td>
+            <td>&nbsp;</td>
+      
+ 
+      <!-- 请输入学号：<input type="text" name="sno"></input>
+       <input type="submit" value="查询成绩">  -->
+	   
+	   
+	   <tr>
+            <td height="43">&nbsp;</td>
+            <td>&nbsp;</td>
+			
+            <td>请输入学号：<input type="text" name="sno"></input><input type="submit" value="查询成绩"></td>
+          </tr>
+		  
+		  
+	   </table>
+	   <br/>
+ </form>
+</fieldset>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 <fieldset>
+ <legend>修改学生成绩</legend>
+   <form action="updatesc.php" method="post">
+        
+     <table width="607" border="0" align="center"  >
+           <tr>
+            <td height="34" class="topfont">修改信息</td>
+            <td></td>
+            <td>&nbsp;</td>
+       </tr>
+          <tr>
+            <td width="155" height="41">&nbsp;</td>
+            <td width="232">&nbsp;&nbsp;&nbsp;学号：<input type="text" name="sno"></td>
+            <td width="206">&nbsp;</td>
+          </tr>
+          <tr>
+            <td height="41">&nbsp;</td>
+            <td>课程号：<input type="text" name="cno"></td>
+            <td>&nbsp;</td>
+          </tr>
+      
+          <tr>
+            <td height="41">&nbsp;</td>
+            <td>&nbsp;新成绩：<input type="text" name="grade"></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td height="43">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td><input type="submit" value="修改"></td>
+          </tr>
+        </table>
+        <br/>
+
+   </form>
+     </fieldset>
+	 
+	 
+	 
+	 
+	 
+	 	 <fieldset>
+ <legend>统计分数大于60的学生信息</legend>
+   <form action="choosescore.php" method="post">
+        
+    
+          <tr>
+            <td height="43">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td><input type="submit" value="一键统计"></td>
+          </tr>
+        </table>
+        <br/>
+
+   
+   </form>
+     </fieldset>
+</body>
+</html>

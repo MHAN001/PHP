@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/login.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="background-image:url(images/88.jpg)">
+<form id="form1" name="form1" method="post" action="register.php">
+         <table width="618" border="0" align="center">
+           <tr>
+             <td><span>注册</span></td>
+             <td height="40">&nbsp;</td>
+           </tr>
+           <tr>
+             <td width="60">&nbsp;</td>
+             <td width="548" height="40"> 姓名:
+               <input type="text" name="pid" id="name" placeholder="长度在3-20个字符之内"  autofocus/></td>
+             
+           </tr>
+           <tr>
+             <td>&nbsp;</td>
+             
+             <td height="40">年龄:
+               <input type="text" name="age" id="age" placeholder="0-99之间的数字" autofocus /></td>
+           </tr>
+           <tr>
+             <td height="40" colspan="2" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;登录名:
+             <input type="text" name="username" id="username" placeholder="长度在3-20个字符之内" autofocus /></td>
+           </tr>
+           <tr>
+             <td >&nbsp;</td>
+             
+             <td height="40" >密码:
+             <input type="password" name="password"   placeholder="长度在12个字符之内" autofocus/></td>
+           </tr>
+           <tr>
+             <td height="40" colspan="2" >再次输入密码:
+             <input type="password" name="pass2" id="pass2" placeholder="两次输入的密码必须相同" autofocus/></td>
+           </tr>
+           <tr>
+             <td height="40" colspan="2" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电子邮箱:
+             <input type="text" name="email" id="email" placeholder="xxx@xx.com" autofocus /></td>
+           </tr>
+           <tr>
+             <td >&nbsp;</td>
+           
+             
+             <td height="40" >性别:
+               <input type="radio" name="RadioGroup1" value="男" id="RadioGroup1_0" /><span><img src="images/Male.gif" width="22" height="21" /></span> 男
+                   <input type="radio" name="RadioGroup1" value="女" id="RadioGroup1_1" /><span><img src="images/Female.gif" width="23" height="21" /></span>女
+                 <br />
+             </td>
+           </tr>
+           <tr>
+             <td>&nbsp;</td>
+             <td height="40">爱好:
+               <input type="checkbox" name="active" id="active" />
+             <label for="active"></label>
+             运动
+             <input type="checkbox" name="talk" id="talk" />
+             <label for="talk">聊天
+               <input type="checkbox" name="game" id="game" />
+             </label>
+             玩游戏</td>
+           </tr>
+           <tr>
+             <td height="40" colspan="2" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;出生日期:
+              
+               <input name="year" type="text" id="year" size="6" /> 年
+     
+             <select name="month" id="month">
+               <option>01</option>
+               <option>02</option>
+               <option>03</option>
+               <option>04</option>
+               <option>05</option>
+               <option>06</option>
+               <option>07</option>
+               <option>08</option>
+               <option>09</option>
+               <option>10</option>
+               <option>11</option>
+               <option>12</option>
+             </select>
+             月
+             
+             <input name="day" type="text" id="day" size="6" />
+             号</td>
+           </tr>
+           <tr>           
+             <td height="81" colspan="3">
+             <ul>
+               <li><input type="submit" name="tj" id="tj" value="提交" /></li>               
+               <li><input type="reset" name="ct" id="ct" value="重填" /></li>
+               </ul>
+             </td>
+           </tr>
+         </table>
+       </form>
+</body>
+</html>
